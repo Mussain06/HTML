@@ -1,0 +1,61 @@
+
+.ad{
+    background-color: red;
+    position: relative;
+    width: 550px;
+    height: 600px;
+    left: 340px;
+    top: 35px;
+    border-radius: 90px;
+    box-shadow: 20px 30px 90px 0 black;
+}
+.nombreinput{
+    border-radius: 56px;
+    position: relative;
+    top: 46px;
+    left: 60px;
+    width: 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    height: 30px;
+}
+.Nombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 69px;
+    top: 40px;
+    z-index: 1;
+}
+.edad{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    bottom: 37px;
+    left: 310px;
+}
+.inputedad{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 65px;
+    border-style: solid;
+    position: relative;
+    left: 300px;
+    width: 220px;
+    height: 30px;
+    bottom: 29px;
+
+
+}
+.inicio{
+    position: relative;
+    left: 165px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    text-shadow: 20px 30px 90px black;
+
+}
+.button{
+    border-radius: 56px;
+    border-style: solid;
+
+}
