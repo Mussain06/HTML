@@ -31,7 +31,7 @@
     font-size: 20px;
     position: relative;
     z-index: 1;
-    bottom: 37px;
+    bottom: 90px;
     left: 310px;
 }
 .inputedad{
@@ -42,9 +42,42 @@
     left: 300px;
     width: 220px;
     height: 30px;
-    bottom: 29px;
+    bottom: 87px;
+}
+.contrainput{
+    border-radius: 56px;
+    border-style: solid;
+    width: 450px;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    right: 40px;
+}
+.Contraseña{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    top: 70px;
+    left: 70px;
 
-
+}
+.inputEmail{
+    border-radius: 56px;
+    border-style: solid;
+    height: 30px;
+    width: 459px;
+    position: relative;
+    bottom: 7px;
+    top: 60px;
+    left: 56px;
+}
+.Email{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 52px;
+    left: 70px;
 }
 .inicio{
     position: relative;
@@ -57,5 +90,18 @@
 .button{
     border-radius: 56px;
     border-style: solid;
-
+}
+.pregunta{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+.textarea{
+    box-sizing: border-box;
+    border-radius: 56px;
+    position: relative;
+    top: 115px;
+    right: 180px;
 }
