@@ -8,13 +8,14 @@
     <title>Iniciar sesión</title>
     
 </head>
-<body>
+<body >
     <header>
         <a href="CSS.html" target="_top">Ejemplo 1</a>
     </header>
-    <form action="https://www.google.es/">
-        <section class = "ad">
-            <legend class = "inicio">Inicio sesión</legend> 
+    <form action="https://www.google.es/">       
+            <section class = "ad">
+                <div class = "caja">
+                    <legend class = "inicio">Inicio sesión</legend> 
             <label >
                 <p class = "Nombre">Nombre de usuario</p>
                 <input type="text" class = "nombreinput">
@@ -33,21 +34,16 @@
                 <input type="number" required = "" class = "inputedad">
             </label>
             <br>
-            <label>
-                <span class = "pregunta">¿Por qué te quieres registrar? </span>
-                <input type="text" class = "textarea">
-            </label>
             <label >
-                <select>
+                <select class = "selector">
                     <option value="1">Premium</option>
                     <option value="2">VIP</option>
                     <option value="3">Normal</option>
                 </select>
             </label>
-            
-            
-        
         <button type = "submit" class = "button" style="color: red">Enviar datos</button>
+                </div>
+            
         </section>
     </form>
 </body>
