@@ -3,16 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Es una página para iniciar sesión en la pagina de youtube">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet"  type = "text/css" href="estilo.css">
     <link rel="stylesheet"  href="normalize.css">
     <title>Iniciar sesión</title>
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
     
 </head>
-<body >
+<body>
+    
     <header>
-        <a href="CSS.html" target="_top">Ejemplo 1</a>
+        <nav class = "nav">
+            <ul class = "nav__ul">
+                <li class = "nav__li"><i class="fas fa-home"></i><a href="CSS.html">Inicio</a></li>
+                <li class = "nav__li"><i class="fas fa-user-friends"></i><a href="CSS.html">Sobre nosotros</a></li>
+                <li class = "nav__li"><i class="fas fa-dollar-sign"></i><a href="CSS.html" >Gana dinero</a></li>
+                <li class = "nav__li"><i class="fas fa-question-circle"></i><a href="CSS.html">Ayuda</a></li>
+            </ul>
+            
+        </nav>
+        <nav class = "nav-reponsive">
+            <ul class = "nav__responsive-ul">
+                <div class = "nav__responsive-button"><i class = "fas fa-bars"></i></div>
+                <div class="nav__li-container">
+                    <li class = "nav__responsive-li"><i class="fas fa-home"></i><a href="CSS.html">Inicio</a></li>
+                    <li class = "nav__responsive-li"><i class="fas fa-user-friends"></i><a href="CSS.html">Sobre nosotros</a></li>
+                    <li class = "nav__responsive-li"><i class="fas fa-dollar-sign"></i><a href="CSS.html">Gana dinero</a></li>
+                    <li class = "nav__responsive-li"><i class="fas fa-question-circle"></i><a href="CSS.html">Ayuda</a></li>
+                </div>
+        </ul>
+        </nav>
+        
+        
     </header>
-    <form action="https://www.google.es/">       
+    
+    <form action="https://www.google.es/" class = "form ">       
             <section class = "ad">
                 <div class = "caja">
                     <legend class = "inicio">Inicio sesión</legend> 
